@@ -1,0 +1,53 @@
+cat selected.txt  commands.txt
+5
+  605  cd zadanieLinux/
+  606  touch processes.txt
+  607  ps aux >>processes.txt
+  608  cat processes.txt
+  609  cp processes.txt copy.txt
+  610  cat copy.txt
+  611  mkdir backup
+  612  mv copy.txt  backup/
+  613  ls
+  614  cd backup/
+  615  ls
+  616  cd ..
+  617  ls
+  618  cd backup
+  619  grep -rni ps aux
+  620  grep -rni "ps aux"
+  621  wc -l copy.txt
+  622  ls
+  623  cat copy.txt  | wc -l
+  624  cd ..
+  625  cat /backup/copy.txt | wc -l >>selected.txt
+  626  ls
+  627  cd backup
+  628  ls
+  629  cd ..
+  630  cat backup/copy.txt | wc -l >>selected.txt
+  631  ls
+  632  cat selected.txt
+  633  touch s.txt
+  634  cat backup/copy.txt | wc -l >>s.txt
+  635  cat s.txt
+  636  rm selected.txt
+  637  ls
+  638  mv s.txt selected.txt
+  639  ls
+  640  cat selected.txt
+  641  grep -rni "/bin"
+  642  cat processes.txt
+  643  ps aux
+  644  grep -rni "/bin" *
+  645  grep "/bin" processes.txt >> selected.txt
+  646  cat selected.txt
+  647  history
+  648  history | tail -n1
+  649  history | tail -1n
+  650  history | tail -n10
+  651  history | tail -n647
+  652  history | tail -n647qclear
+  653  history | tail -n603
+  654  history | tail -n50
+  655  history | tail -n51 >commands.txt
